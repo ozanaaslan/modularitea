@@ -13,10 +13,10 @@ public abstract class AbstractModulariteaApplication implements IModulariteaEntr
 
     @Getter private static AbstractModulariteaApplication instance;
 
-    /**
+   /* *//**
      * The inherited main method.
      * When someone runs 'java ModApp', this code executes.
-     */
+     *//*
     public static void main(String[] args) {
         try {
             // Determine the class name of the class that was actually launched
@@ -35,7 +35,7 @@ public abstract class AbstractModulariteaApplication implements IModulariteaEntr
             e.printStackTrace();
         }
     }
-
+*/
     public void initialize() {
         instance = this;
         System.out.println("--- Booting Modularitea Kernel ---");
